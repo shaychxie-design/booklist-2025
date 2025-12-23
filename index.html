@@ -781,6 +781,16 @@
     "notes": "Super cool to get concrete and actionable writing advice. Taking notes!",
     "genre": "",
     "recommend": "No"
+  },
+  {
+    "number": 69,
+    "title": "The Annual Review",
+    "author": "Tiago Forte",
+    "cover": "",
+    "rating": "",
+    "notes": "Perfect timing to reflect on the year and craft my vision for the next year and the next 5 years. Great actionable steps.",
+    "genre": "",
+    "recommend": "No"
   }
 ];
         let showRecommendationsOnly = false;
@@ -806,7 +816,7 @@
         
         function render() {
             const totalBooks = books.length;
-            const avgPerMonth = (totalBooks / 10).toFixed(1);
+            const avgPerMonth = (totalBooks / 12).toFixed(1);
             document.getElementById('statsCount').textContent = totalBooks + ' books completed this year! 🎉';
             document.getElementById('statsAverage').textContent = "That's " + avgPerMonth + " books a month on average";
             
