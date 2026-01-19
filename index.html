@@ -791,6 +791,36 @@
     "notes": "Perfect timing to reflect on the year and craft my vision for the next year and the next 5 years. Great actionable steps.",
     "genre": "",
     "recommend": "No"
+  },
+ {
+    "number": 70,
+    "title": "Eat, Poop, Die",
+    "author": "Joe Roman",
+    "cover": "",
+    "rating": "⭐⭐⭐⭐⭐",
+    "notes": "Super cool to learn about biodiversity and how animals shape the ecosystem. Fun to learn about whales' excretions, and the speed of pee & poo among species (fun fact: the duration is similar).",
+    "genre": "",
+    "recommend": "No"
+  },
+  {
+    "number": 71,
+    "title": "Rich Girl Nation",
+    "author": "Katie Gatti Tassin",
+    "cover": "",
+    "rating": "⭐⭐⭐⭐⭐",
+    "notes": "Awesome book on financial literacy – I'd suggset this to all genders. She's the only one so far who has successfully broken down the ideas of maga-backdoor Roth IRAs for me. I've also learned about SEP IRAs and Solo 401(k)s as a small single business owner. Bravo!",
+    "genre": "",
+    "recommend": "Yes"
+  },
+  {
+    "number": 72,
+    "title": "We Should All Be Millionaires",
+    "author": "Rachel Rodgers",
+    "cover": "",
+    "rating": "",
+    "notes": "Started with building healthier mindset, which I recognize is critical. And I was especially impressed by her very ambitious challenge of making sales totalling $10k in 10 days.",
+    "genre": "",
+    "recommend": "No"
   }
 ];
         let showRecommendationsOnly = false;
@@ -817,7 +847,7 @@
         function render() {
             const totalBooks = books.length;
             const avgPerMonth = (totalBooks / 12).toFixed(1);
-            document.getElementById('statsCount').textContent = totalBooks + ' books completed this year! 🎉';
+            document.getElementById('statsCount').textContent = totalBooks + ' books completed in 2025 🎉';
             document.getElementById('statsAverage').textContent = "That's " + avgPerMonth + " books a month on average";
             
             const container = document.getElementById('booksContainer');
